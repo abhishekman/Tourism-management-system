@@ -1,0 +1,48 @@
+.nav {
+    border:1px solid #5865F2;
+    background-color:#5865F2;
+    width:100%;
+    height: 60px;
+    position: fixed;
+    top: 0%;
+    
+    
+   .home1:hover{
+    color:green;
+cursor: default;
+   }
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: large;
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top:8px;
+    
+}
+
+.him{
+    text-shadow: 3px 3px red;
+    margin-left: 20px;
+    font-size: x-large;
+    
+}
+input{
+    border-radius: 5px;
+}
+.reg{
+    text-shadow: 2px 2px orangered;
+   
+    
+   
+}
+.reg:hover{
+    color:green;
+    cursor: default;
+}
+.search{
+    display: inline-flex;
+}

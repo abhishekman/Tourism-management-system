@@ -1,0 +1,19 @@
+/* flaura & fauna */
+@keyframes example {
+    0%   {background-image:url('https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Trekking_21st-Nov.jpg');}
+    25%  {background-image:url('https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Rock-Climbing_21st-Nov.jpg');}
+    50%  {background-image: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Ice-Skiing_21st-Nov.jpg');}
+    100% {background-image:url('https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Paragliding_21st-Nov.jpg');}
+  }
+  
+  /* The element to apply the animation to */
+  .floura {
+    width: 100%;
+    height: 550px;
+   
+    background-image:url("https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Trekking_21st-Nov.jpg" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }

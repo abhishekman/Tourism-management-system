@@ -1,0 +1,19 @@
+/* flaura & fauna */
+@keyframes example {
+    0%   {background-image:url('https://cdn1.tripoto.com/media/filter/nl/img/395815/Image/1656175313_kullu_dussehra_main_procession.jpg');}
+    25%  {background-image:url('https://cdn1.tripoto.com/media/filter/nl/img/395815/Image/1656175634_218760482_4129302433823739_5809657385875561045_n.jpg');}
+    50%  {background-image: url('https://cdn1.tripoto.com/media/filter/nl/img/395815/Image/1656175978_cover_cex8jys91hoaidxydo4iemyuujibyfnd.jpeg');}
+    100% {background-image:url('https://cdn1.tripoto.com/media/filter/nl/img/395815/Image/1656175844_halda_festivals_in_himachal.jpg');}
+  }
+  
+  /* The element to apply the animation to */
+  .floura {
+    width: 100%;
+    height: 550px;
+   
+    background-image:url("https://cdn1.tripoto.com/media/filter/nl/img/395815/Image/1656175313_kullu_dussehra_main_procession.jpg" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }

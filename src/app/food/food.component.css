@@ -1,0 +1,19 @@
+/* flaura & fauna */
+@keyframes example {
+    0%   {background-image:url('https://www.hptourism.org/wp-content/uploads/2021/05/Pomegranate.jpg');}
+    25%  {background-image:url('https://www.hptourism.org/wp-content/uploads/2021/05/Pear.jpg');}
+    50%  {background-image: url('https://www.hptourism.org/wp-content/uploads/2021/05/Peach.jpg');}
+    100% {background-image:url('https://i.pinimg.com/564x/a1/1f/fb/a11ffb0fcdae4867f4310116e578919f.jpg');}
+  }
+  
+  /* The element to apply the animation to */
+  .floura {
+    width: 100%;
+    height: 550px;
+   
+    background-image:url("https://www.hptourism.org/wp-content/uploads/2021/05/Pomegranate.jpg" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }

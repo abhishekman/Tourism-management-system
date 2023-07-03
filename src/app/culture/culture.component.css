@@ -1,0 +1,19 @@
+/* flaura & fauna */
+@keyframes example {
+    0%   {background-image:url('https://thumbs.dreamstime.com/b/kullu-himachal-pradesh-india-january-himachali-woman-traditional-dress-playing-snow-kid-winters-146135390.jpg?w=992');}
+    25%  {background-image:url('https://thumbs.dreamstime.com/b/kullu-himachal-pradesh-india-st-july-group-himachali-women-dancing-nati-dance-traditional-folk-dance-upper-himachal-259961182.jpg?w=1200');}
+    50%  {background-image: url('https://thumbs.dreamstime.com/b/sunrise-lord-buddha-langza-village-spiti-valley-himachal-pradesh-spiti-valley-cold-desert-mountain-valley-located-high-122297317.jpg?w=1200');}
+    100% {background-image:url('https://thumbs.dreamstime.com/b/beautiful-north-indian-girl-manali-himachal-pradesh-wearing-traditional-dress-himachal-beautiful-north-indian-girl-215388604.jpg?w=992');}
+  }
+  
+  /* The element to apply the animation to */
+  .floura {
+    width: 100%;
+    height: 550px;
+   
+    background-image:url("https://thumbs.dreamstime.com/b/kullu-himachal-pradesh-india-january-himachali-woman-traditional-dress-playing-snow-kid-winters-146135390.jpg?w=992" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }

@@ -1,0 +1,25 @@
+ /* footer  */
+ .footer{
+    background-color:hsl(235, 86%, 65%);
+    
+    
+}
+/* quote */
+.quote{
+    text-shadow: 3px 3px red;
+}
+/* footer height */
+.links{
+    height:180px;
+}
+/* links */
+.link1{
+    list-style-type: none;
+    display: inline-block;
+    text-shadow: 1px 1px blue;
+    
+}
+/* links design */
+h5{
+    text-shadow: 2px 2px red;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>succesffully</title>
+</head>
+<body>
+   
+    <nav *ngIf="ismenurequired">
+        <header style="background-color: blueviolet;width: 100%;height:55px;display: inline-flex; margin-left: 30px;">
+<h2 *ngIf="isAdminadmin" routerLink="/admin">Admin</h2> &nbsp;&nbsp;&nbsp;&nbsp;
+<h2 routerLink="/login">Logout</h2>
+        </header>
+        
+        <h1 style="color:rgb(30, 128, 0);margin-left: 200px; margin-top: 70px;">Succesfully Login</h1>
+    </nav>
+    </body>
+</html>

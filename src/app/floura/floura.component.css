@@ -1,0 +1,19 @@
+/* flaura & fauna */
+@keyframes example {
+    0%   {background-image:url('https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60');}
+    25%  {background-image:url('https://media.istockphoto.com/id/1371289844/photo/himalayan-mountain-birds-perched-on-a-tree-branch-with-scenic-landscape-at-kalpa-himachal.jpg?s=612x612&w=0&k=20&c=8t3LraGnKUkwVCf-CEuWrLtFrUSkzk-q7oftT_6YTC0=');}
+    50%  {background-image:url('https://media.istockphoto.com/id/1141864449/photo/himalayan-griffon-vulture-gyps-himalayensis-panna-tiger-reserve-rajasthan-india.jpg?s=612x612&w=0&k=20&c=ohYnlQXxGg34oz49mrfhETN-UjbN3rkRCaQzveCQgKI=');}
+    100% {background-image:url('https://media.istockphoto.com/id/1193877155/photo/portrait-of-yak-standing-on-mountain-animal-in-nature-behaviour-themes-animals-in-the-wild.jpg?s=612x612&w=0&k=20&c=5ay50n-zcsMPiNeQ3YolPsFKyGaONqm3bjVnnP18JAQ=');}
+  }
+  
+  /* The element to apply the animation to */
+  .floura {
+    width: 100%;
+    height: 550px;
+   
+    background-image:url("https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }

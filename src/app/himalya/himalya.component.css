@@ -1,0 +1,18 @@
+@keyframes example {
+    0%   {background-image:url('https://images.unsplash.com/photo-1616249140849-affc0f141c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhpbWFsYXlhc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');}
+    25%  {background-image:url('https://images.unsplash.com/photo-1520931546307-9b4ae35551d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhpbWFsYXlhc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');}
+    50%  {background-image:url('https://media.istockphoto.com/id/179127232/photo/many-pashmina-goats-on-rock-mountains-under-gray-cloudy-sky.webp?b=1&s=170667a&w=0&k=20&c=Z_Iu-SM1G4o3u7DgrcvqH4VkRjs-CHccjeSgwETVTnU=');}
+    100% {background-image:url('https://media.istockphoto.com/id/517314024/photo/indian-lorry-truck-on-road-in-himalayas-mountains.jpg?s=612x612&w=0&k=20&c=4lGAxOy6zCVZ_96pZgN6BOXMsbjJ5Fw9arO_6th5raQ=');}
+  }
+  
+  /* The element to apply the animation to */
+  .himalya {
+    width: 100%;
+    height: 450px;
+   
+    background-image:url("https://images.unsplash.com/photo-1616249140849-affc0f141c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhpbWFsYXlhc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" );
+   background-size:cover ;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+  }
