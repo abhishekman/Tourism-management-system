@@ -1,0 +1,18 @@
+*WELCOME TO TOUSRIST WEBSITE*
+
+
+1. INSTALL NODE in SYSTEM
+
+2. OPEN COMMMAND PROMPT and open this project , Write the folllwing command
+
+ Like: //cd download
+        
+        //cd Tourism
+
+3. In this project we can  use json api.So first install json-server in system gloobally or project .
+
+After installation They create automatic serverfolder.Server folder also contain db.json file.
+
+4.run Json server using this command: //npm run server
+
+5.Open this project run the project using this command in terminal  //ng serve
