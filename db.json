@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": "Admin",
+      "name": "Abhishek Rajput",
+      "password": "123456",
+      "email": "ak4731809@gmail.com",
+      "role": "Admin",
+      "isactive": true
+    },
+    {
+      "id": "rahul",
+      "name": "Manhas",
+      "password": "aaaa",
+      "email": "aa@gmail.com",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "Staff"
+      
+    },
+    {
+      "code": "quality",
+      "name": "Quality"
+      
+    }
+  ]
+}
